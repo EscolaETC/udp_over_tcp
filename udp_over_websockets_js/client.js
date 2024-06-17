@@ -2,7 +2,7 @@ const datagram = require("dgram");
 const socketioclient = require("socket.io-client");
 
 const server = datagram.createSocket('udp4');
-const socket = socketioclient.io("https://beca-131-72-222-154.ngrok-free.app"); 
+const socket = socketioclient.io("https://964d-131-72-222-154.ngrok-free.app"); 
 
 server.on("message", (data, info) => {
     //console.log("Received from game client", data);
